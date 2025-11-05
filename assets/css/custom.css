@@ -1,0 +1,24 @@
+/* Override italics in blog entry titles and excerpts */
+
+/* Remove italics from entry titles */
+.entry-title,
+.entry-title a {
+  font-style: normal !important;
+}
+
+/* Remove italics from entry excerpts */
+.entry-excerpt,
+.entry-excerpt p {
+  font-style: normal !important;
+}
+
+/* Remove italics from all entries */
+.entries-list .entry,
+.entries-grid .entry {
+  font-style: normal !important;
+}
+
+/* Ensure all em tags in entries display as normal */
+.entry em {
+  font-style: normal !important;
+}
