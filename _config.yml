@@ -32,7 +32,7 @@ github_username:  jekyll
 custom_css: /assets/css/custom.css
 
 # Build settings
-theme: jekyll-theme-so-simple
+remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/dark.css"
 plugins:
   - jekyll-feed
